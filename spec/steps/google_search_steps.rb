@@ -34,11 +34,10 @@ module GoogleSearch
         :remote,
         desired_capabilities:
             {
-                browserName: '',
-                platform:    'Mac',
-                version:     '6.1',
-                device:      'iPhone Simulator',
-                app:         'safari'
+                browserName:     'safari',
+                platformName:    'iOS',
+                Platformversion: '7.1',
+                deviceName:      'iPhone Simulator',
             },
         url: "http://127.0.0.1:4723/wd/hub"
       )
